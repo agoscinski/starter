@@ -27,3 +27,6 @@ map("n", "D", "\"_D", { desc = "Delete line"})
 map("n", "<leader>d", "\"\"d", { desc = "Delete and yank text"})
 map("v", "<leader>d", "\"\"d", { desc = "Delete and yank text"})
 map("n", "<leader>D", "\"\"D", { desc = "Delete and yank line"})
+
+-- Somehow the combination of tmux + nvim blocks the <C-End> command
+-- Please use <Alt-Gr> + <Shift> + o/u to go the beginning or end of line
